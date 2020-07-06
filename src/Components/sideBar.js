@@ -1,37 +1,49 @@
 import React from 'react';
+import "./sideBar.scss";
 
 const SideBar = () => {
+
+
     return (
         <div className="wrapper">
-
             <nav id="sidebar">
                 <div className="sidebar-header">
-                    <h3>Bootstrap Sidebar</h3>
+                    <h3>Dashboard</h3>
                 </div>
-
                 <ul className="list-unstyled components">
-                    <p>Dummy Heading</p>
                     <li className="active">
                         <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false"
-                           className="dropdown-toggle">Home</a>
+                           className="dropdown-toggle">Zadania</a>
                         <ul className="collapse list-unstyled" id="homeSubmenu">
                             <li>
-                                <a href="#">Home 1</a>
+                                <a href="#">Page 1</a>
                             </li>
                             <li>
-                                <a href="#">Home 2</a>
+                                <a href="#">Page 2</a>
                             </li>
                             <li>
-                                <a href="#">Home 3</a>
+                                <a href="#">Page 3</a>
+                            </li>
+                            <li>
+                                <a href="#">Page 4</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#">Zadania dokumenty</a>
+                    </li>
+                    <li>
+                        <a href="#">Pracownicy</a>
+                    </li>
+                    <li>
+                        <a href="#">Rekrutacje</a>
+                    </li>
+                    <li>
+                        <a href="#">Kandydaci</a>
                     </li>
                     <li>
                         <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
-                           className="dropdown-toggle">Pages</a>
+                           className="dropdown-toggle">EOD</a>
                         <ul className="collapse list-unstyled" id="pageSubmenu">
                             <li>
                                 <a href="#">Page 1</a>
@@ -45,16 +57,19 @@ const SideBar = () => {
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Portfolio</a>
+                        <a href="#">Services</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#">Ustawienia</a>
                     </li>
                 </ul>
             </nav>
 
         </div>
+
+
     );
+
 };
 
 export default SideBar;
