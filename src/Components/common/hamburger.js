@@ -3,11 +3,9 @@ import './hamburger.scss';
 
 const Hamburger = () => {
     return (
-        <div className="toggleButton">
-            <div className="toggleButtonLine"/>
-            <div className="toggleButtonLine"/>
-            <div className="toggleButtonLine"/>
-        </div>
+        <button type="button" id="sidebarCollapse" className="btn btn-info">
+            <i className="fas fa-bars"/>
+        </button>
     );
 };
 
