@@ -1,6 +1,6 @@
 import React from 'react';
 import Hamburger from "./common/hamburger";
-import "../sass/navBar.scss"
+import "./navBar.scss"
 import moment from "moment";
 
 const NavBar = () => {

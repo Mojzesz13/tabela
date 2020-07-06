@@ -15,16 +15,16 @@ const SideBar = () => {
                         <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false"
                            className="dropdown-toggle">Zadania</a>
                         <ul className="collapse list-unstyled" id="homeSubmenu">
-                            <li>
+                            <li className="insideList">
                                 <a href="#">Page 1</a>
                             </li>
-                            <li>
+                            <li className="insideList">
                                 <a href="#">Page 2</a>
                             </li>
-                            <li>
+                            <li className="insideList">
                                 <a href="#">Page 3</a>
                             </li>
-                            <li>
+                            <li className="insideList">
                                 <a href="#">Page 4</a>
                             </li>
                         </ul>
@@ -45,13 +45,13 @@ const SideBar = () => {
                         <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
                            className="dropdown-toggle">EOD</a>
                         <ul className="collapse list-unstyled" id="pageSubmenu">
-                            <li>
+                            <li className="insideList">
                                 <a href="#">Page 1</a>
                             </li>
-                            <li>
+                            <li className="insideList">
                                 <a href="#">Page 2</a>
                             </li>
-                            <li>
+                            <li className="insideList">
                                 <a href="#">Page 3</a>
                             </li>
                         </ul>

@@ -1,0 +1,36 @@
+@import "../../sass/colors";
+
+  .filterTable {
+    margin: 2rem;
+    display: flex;
+    color: $mainColor;
+
+    button {
+      background-color: white;
+      color: $mainColor;
+      border: 1px solid gray;
+      margin-left: 2.5rem;
+      border-radius: 5%;
+      width: 10rem;
+      height: 3rem;
+      font-weight: 600;
+    }
+    span{
+      border-top: 1px solid gray;
+      border-right: 1px solid gray;
+      border-bottom: 1px solid gray;
+      border-radius: 5%;
+      width: 3rem;
+      height: 3rem;
+      padding-left: .9rem;
+    }
+
+    h2 {
+      margin: .2rem 2.5rem 0 2.5rem;
+      font-weight: 700;
+    }
+
+    p {
+      margin-top: .6rem
+    }
+  }
